@@ -1,3 +1,5 @@
+@import "~bootstrap/scss/bootstrap";
+
 * {
     margin: 0;
     padding: 0;
@@ -8,9 +10,14 @@ html, body, #root, .App {
     height: 100%;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 .App {
     display: flex;
     flex-direction: column;
+    font-size: 1.5rem;
 }
 
 .content {

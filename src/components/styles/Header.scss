@@ -1,0 +1,47 @@
+$background-color: #022222;
+
+.header {
+    background: $background-color;
+    color: #FFF;
+    
+    .row {
+        height: 7rem;
+        align-items: center;
+
+        .left {
+            a {
+                color: currentColor;
+                text-decoration: none;
+            }
+        }
+
+        .center {
+            form {
+                input {
+                    padding: .5rem 1rem;
+                    font-size: 1.5rem;
+                }
+            }
+        }
+
+        .right {
+            .nav {
+                justify-content: end;
+
+                a {
+                    color: currentColor;
+                    font-weight: 600;
+                    padding: 0;
+                    margin-left: 2rem;
+                    border-top: 2px solid transparent;
+                    border-bottom: 2px solid $background-color;
+                }
+
+                a:hover {
+                    border-bottom: 2px solid currentColor;
+                    transition: .5s;
+                }
+            }
+        }
+    }
+}
