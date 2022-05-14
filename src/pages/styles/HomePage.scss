@@ -1,0 +1,18 @@
+.home-page {
+
+    .post-item {
+        border: 1px solid black;
+        border-radius: 1rem;
+        padding: 1rem 2rem;
+        margin-bottom: 2rem;
+
+        .title {
+            margin-bottom: 1rem;
+        }
+
+        .content {
+            margin: 0;
+            margin-bottom: 1rem;
+        }
+    }
+}
